@@ -12,7 +12,6 @@
 
 [old github](https://github.com/olderaccount)
 
-<html>
     
 <button onclick="clicked()">if u like this site click here</button>
 
@@ -27,5 +26,4 @@ function clicked() {
     xhr.send();
 }
 </script>
-    
-    </html>
+
