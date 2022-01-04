@@ -18,7 +18,7 @@
 <script>
 function clicked() {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "gusmeadows.github.io/:meromyosin:/awesomeclick");
+    xhr.open("GET", "gusmeadows.github.io/awesomeclick");
     xhr.responseType = "json";
     xhr.onload = function() {
         alert(`${this.response.value} like this`);
@@ -34,4 +34,4 @@ function cb(response) {
     document.getElementById('visits').innerText = response.value;
 }
 </script>
-<script async src="https://api.countapi.xyz/hit/gusmeadows.github.io/:meromyosin:/visits?callback=cb"></script>
+<script async src="https://api.countapi.xyz/hit/gusmeadows.github.io/visits?callback=cb"></script>
