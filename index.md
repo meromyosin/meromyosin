@@ -12,22 +12,8 @@
 
 [old github](https://github.com/olderaccount)
 
-    
-<button onclick="clicked()">if u like this site click here</button>
 
-<script>
-function clicked() {
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", "gusmeadows.github.io/awesomeclick");
-    xhr.responseType = "json";
-    xhr.onload = function() {
-        alert(`${this.response.value} like this`);
-    }
-    xhr.send();
-}
-</script>
-
-<div id="visits">... </div>
+<div id="visits">... </div>visitors
 
 <script>
 function cb(response) {
